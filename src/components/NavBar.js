@@ -1,7 +1,7 @@
 import React from 'react';
 
 const NavBar = () => {
-    return 
+    return (
     <div>
         <h3>Altro-Ke Commmerce</h3>
         <ul>
@@ -10,6 +10,7 @@ const NavBar = () => {
             <li>Extras</li>
         </ul>
     </div>
+    )
 }
 
 export default NavBar;
