@@ -1,7 +1,15 @@
 import React from 'react';
 
-function NavBar(props){
-    return (<nav className="navbar navbar-light bg-light">
-              <a className="navbar-brand" href="#">Navbar</a>
-           </nav>);
+const NavBar = () => {
+    return 
+    <div>
+        <h3>Altro-Ke Commmerce</h3>
+        <ul>
+            <li>Música</li>
+            <li>Ropa</li>
+            <li>Extras</li>
+        </ul>
+    </div>
 }
+
+export default NavBar;

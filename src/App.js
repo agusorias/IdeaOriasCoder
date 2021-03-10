@@ -1,23 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import (NavBar) from './components/NavBar.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Tienda de Altro-Ke
-        </p>
-        <a
-          className="App-link"
-          href="https://plataforma.coderhouse.com/cursos/11335/reactjs"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Coderhouse - Camada 11335
-        </a>
-      </header>
+      <NavBar/>
     </div>
   );
 }
