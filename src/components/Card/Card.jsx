@@ -7,7 +7,7 @@ const Card = () => {
         <div className="container">
             <h2>Altro Ke</h2>
             <div className="container-img">
-                <img src="img/logoaltroke.jpg" alt="imagen altroke" />
+                <img src="../../img/logoaltroke.jpg" alt="imagen altroke" />
             </div>
             <p>E-commerce</p>
         </div>
