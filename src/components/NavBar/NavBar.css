@@ -1,0 +1,11 @@
+.menu {
+    display: inline-block;
+    list-style-type: none;
+    margin: 1%;
+    text-align: center;
+}
+
+.centrado {
+    text-align: center;
+    padding-left: 0px;
+}
